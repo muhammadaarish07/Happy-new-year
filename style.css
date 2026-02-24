@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #050505;
+  overflow: hidden;
+  font-family: system-ui, sans-serif;
+  cursor: none;
+}
+
+canvas {
+  position: fixed;
+  inset: 0;
+}
+
+.content {
+  position: relative;
+  z-index: 10;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 68px;
+  letter-spacing: 6px;
+  background: linear-gradient(to right, #ffb347, #ff4ecd, #00eaff);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
